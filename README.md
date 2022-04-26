@@ -1,7 +1,7 @@
 # What is this?
 
-This is MNK game (Tic-Tac-Toe but the field is M*N and the length of the winning sequence of X/O is K) implemented as
-one line of Python code. No `exec`/`eval` magic of escaping newline characters. Truly FP-style hell.
+This is the MNK game (Tic-Tac-Toe but the field is M by N celss and the length of the winning sequence of X/O is K)
+implemented as a single line of Python code. No `exec`/`eval` magic or escaping newline characters. Truly an FP-style hell.
 
 # Why is this?
 
@@ -10,8 +10,8 @@ This was created for a ridiculous game jam where you had to write a game as one 
 
 # How is this?
 
-This was hard to debug code written in one line using only lambdas, so at first I wrote
-a [drat using usual python](src/draft.py), but in a manner that would allow me to easily inline variables and lambda
+This was some hard to debug code written in one line using only lambdas, so at first I wrote
+a [draft using regular python](src/draft.py), but in a manner that would allow me to easily inline variables and lambda
 equivalents of the defined functions. The result of this can be found in [this file](src/one_line.py) and that's
 probably what you want to look at.
 
